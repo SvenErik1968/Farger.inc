@@ -5,7 +5,7 @@
 //    File           : farger.inc
 //    Version        : 3.0
 //    Created by     : Sven-Erik Andersen
-//    Contact        : sven.erik.andersen (at) gmail.com
+//    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
 //    Last updated   : 2019-10-26
 //    Description    : Farger means colors in Norwegian.

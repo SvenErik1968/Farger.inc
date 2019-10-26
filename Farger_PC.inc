@@ -3,7 +3,7 @@
 //    File           : Farger_PC.inc
 //    Version        : 1.0
 //    Created by     : Sven-Erik Andersen
-//    Contact        : sven.erik.andersen (at) gmail.com
+//    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2019-08-21
 //    Description    : This is based on the list of colors found on this page:
 //                     https://webtemple.ca/pantone-c-colors-hex-rgb-codes/
