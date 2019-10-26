@@ -16,6 +16,9 @@
 //                     https://en.wikipedia.org/wiki/List_of_Crayola_crayon_colors
 //                     https://en.wikipedia.org/wiki/X11_color_names
 //                     https://en.wikipedia.org/wiki/Web_colors
+//
+//                     LEGO™ colors
+//                     http://www.peeron.com/cgi-bin/invcgis/colorguide.cgi
 //                     
 //
 
@@ -1750,6 +1753,119 @@
 #declare X11_Web_Grey = X11_Web_Gray;
 #declare X11_White = White;
 #declare X11_Yellow = Yellow;
+
+// Official LEGO™ Colors
+#declare Lego_Black = srgb <0.105882353, 0.164705882, 0.203921569>;
+#declare Lego_Black_Metallic = srgb <0.08627451, 0.11372549, 0.196078431>;
+#declare Lego_Brick_Yellow = srgb <0.843137255, 0.77254902, 0.6>;
+#declare Lego_Bright_Blue = srgb <0.050980392, 0.411764706, 0.670588235>;
+#declare Lego_Bright_Bluish_Green = srgb <0, 0.560784314, 0.607843137>;
+#declare Lego_Bright_Bluish_Violet = srgb <0.262745098, 0.329411765, 0.576470588>;
+#declare Lego_Bright_Green = srgb <0.294117647, 0.592156863, 0.290196078>;
+#declare Lego_Bright_Orange = srgb <0.854901961, 0.521568627, 0.250980392>;
+#declare Lego_Bright_Purple = srgb <0.803921569, 0.384313725, 0.596078431>;
+#declare Lego_Bright_Red = srgb <0.768627451, 0.156862745, 0.105882353>;
+#declare Lego_Bright_Reddish_Lilac = srgb <0.556862745, 0.258823529, 0.521568627>;
+#declare Lego_Bright_Reddish_Orange = srgb <0.82745098, 0.435294118, 0.298039216>;
+#declare Lego_Bright_Reddish_Violet = srgb <0.57254902, 0.223529412, 0.470588235>;
+#declare Lego_Bright_Violet = srgb <0.419607843, 0.196078431, 0.482352941>;
+#declare Lego_Bright_Yellow = srgb <0.960784314, 0.803921569, 0.184313725>;
+#declare Lego_Bright_Yellowish_Green = srgb <0.643137255, 0.741176471, 0.274509804>;
+#declare Lego_Bright_Yellowish_Orange = srgb <0.88627451, 0.607843137, 0.247058824>;
+#declare Lego_Brown = srgb <0.48627451, 0.360784314, 0.270588235>;
+#declare Lego_Cool_Yellow = srgb <0.992156863, 0.917647059, 0.549019608>;
+#declare Lego_Curry = srgb <0.843137255, 0.662745098, 0.294117647>;
+#declare Lego_Dark_Curry = srgb <0.690196078, 0.556862745, 0.266666667>;
+#declare Lego_Dark_Green = srgb <0.156862745, 0.498039216, 0.274509804>;
+#declare Lego_Dark_Grey = srgb <0.42745098, 0.431372549, 0.423529412>;
+#declare Lego_Dark_Grey_Metallic = srgb <0.341176471, 0.345098039, 0.341176471>;
+#declare Lego_Dark_Nougat = srgb <0.682352941, 0.478431373, 0.349019608>;
+#declare Lego_Dark_Orange = srgb <0.62745098, 0.37254902, 0.203921569>;
+#declare Lego_Dark_Red = srgb <0.482352941, 0.180392157, 0.184313725>;
+#declare Lego_Dark_Royal_Blue = srgb <0.137254902, 0.278431373, 0.545098039>;
+#declare Lego_Dark_Stone_Grey = srgb <0.388235294, 0.37254902, 0.380392157>;
+#declare Lego_Dove_Blue = srgb <0.490196078, 0.733333333, 0.866666667>;
+#declare Lego_Earth_Blue = srgb <0.125490196, 0.22745098, 0.337254902>;
+#declare Lego_Earth_Green = srgb <0.152941176, 0.274509804, 0.17254902>;
+#declare Lego_Earth_Orange = srgb <0.384313725, 0.278431373, 0.196078431>;
+#declare Lego_Earth_Yellow = srgb <0.407843137, 0.360784314, 0.262745098>;
+#declare Lego_Faded_Green = srgb <0.439215686, 0.584313725, 0.470588235>;
+#declare Lego_Fire_Yellow = srgb <0.976470588, 0.839215686, 0.180392157>;
+#declare Lego_Flame_Reddish_Orange = srgb <0.811764706, 0.376470588, 0.141176471>;
+#declare Lego_Flame_Yellowish_Orange = srgb <0.909803922, 0.670588235, 0.176470588>;
+#declare Lego_Gold = srgb <0.862745098, 0.737254902, 0.505882353>;
+#declare Lego_Grey = srgb <0.631372549, 0.647058824, 0.635294118>;
+#declare Lego_Gun_Metallic = srgb <0.458823529, 0.423529412, 0.384313725>;
+#declare Lego_Lemon_Metalic = srgb <0.509803922, 0.541176471, 0.364705882>;
+#declare Lego_Light_Blue = srgb <0.705882353, 0.823529412, 0.890196078>;
+#declare Lego_Light_Bluish_Green = srgb <0.717647059, 0.843137255, 0.835294118>;
+#declare Lego_Light_Bluish_Violet = srgb <0.756862745, 0.792156863, 0.870588235>;
+#declare Lego_Light_Brick_Yellow = srgb <0.941176471, 0.835294118, 0.62745098>;
+#declare Lego_Light_Green = srgb <0.760784314, 0.854901961, 0.721568627>;
+#declare Lego_Light_Grey = srgb <0.780392157, 0.756862745, 0.717647059>;
+#declare Lego_Light_Grey_Metallic = srgb <0.670588235, 0.678431373, 0.674509804>;
+#declare Lego_Light_Lilac = srgb <0.654901961, 0.662745098, 0.807843137>;
+#declare Lego_Light_Orange = srgb <0.917647059, 0.721568627, 0.568627451>;
+#declare Lego_Light_Orange_Brown = srgb <0.796078431, 0.517647059, 0.258823529>;
+#declare Lego_Light_Pink = srgb <0.862745098, 0.564705882, 0.584313725>;
+#declare Lego_Light_Purple = srgb <0.894117647, 0.678431373, 0.784313725>;
+#declare Lego_Light_Red = srgb <0.933333333, 0.768627451, 0.71372549>;
+#declare Lego_Light_Reddish_Violet = srgb <0.909803922, 0.729411765, 0.780392157>;
+#declare Lego_Light_Royal_Blue = srgb <0.623529412, 0.764705882, 0.91372549>;
+#declare Lego_Light_Stone_Grey = srgb <0.898039216, 0.894117647, 0.870588235>;
+#declare Lego_Light_Yellow = srgb <0.976470588, 0.91372549, 0.6>;
+#declare Lego_Light_Yellowish_Green = srgb <0.850980392, 0.894117647, 0.654901961>;
+#declare Lego_Light_Yellowish_Orange = srgb <0.952941176, 0.811764706, 0.607843137>;
+#declare Lego_Lilac = srgb <0.419607843, 0.384313725, 0.607843137>;
+#declare Lego_Medium_Blue = srgb <0.431372549, 0.6, 0.788235294>;
+#declare Lego_Medium_Bluish_Green = srgb <0.333333333, 0.647058824, 0.68627451>;
+#declare Lego_Medium_Bluish_Violet = srgb <0.407843137, 0.454901961, 0.674509804>;
+#declare Lego_Medium_Green = srgb <0.631372549, 0.768627451, 0.545098039>;
+#declare Lego_Medium_Lilac = srgb <0.203921569, 0.168627451, 0.458823529>;
+#declare Lego_Medium_Orange = srgb <0.878431373, 0.596078431, 0.392156863>;
+#declare Lego_Medium_Red = srgb <0.854901961, 0.525490196, 0.474509804>;
+#declare Lego_Medium_Reddish_Violet = srgb <0.768627451, 0.439215686, 0.62745098>;
+#declare Lego_Medium_Royal_Blue = srgb <0.423529412, 0.505882353, 0.717647059>;
+#declare Lego_Medium_Stone_Grey = srgb <0.639215686, 0.635294118, 0.643137255>;
+#declare Lego_Medium_Yellowish_Green = srgb <0.780392157, 0.823529412, 0.235294118>;
+#declare Lego_Medium_Yellowish_Orange = srgb <0.905882353, 0.674509804, 0.345098039>;
+#declare Lego_Neon_Green = srgb <0.847058824, 0.866666667, 0.337254902>;
+#declare Lego_Neon_Orange = srgb <0.835294118, 0.450980392, 0.239215686>;
+#declare Lego_Nougat = srgb <0.8, 0.556862745, 0.407843137>;
+#declare Lego_Phosph._White = srgb <0.925490196, 0.909803922, 0.870588235>;
+#declare Lego_Red_Flip_Flop = srgb <0.592156863, 0.411764706, 0.356862745>;
+#declare Lego_Reddish_Brown = srgb <0.411764706, 0.250980392, 0.152941176>;
+#declare Lego_Reddish_Lilac = srgb <0.588235294, 0.439215686, 0.623529412>;
+#declare Lego_Royal_Blue = srgb <0.274509804, 0.403921569, 0.643137255>;
+#declare Lego_Rust = srgb <0.560784314, 0.298039216, 0.164705882>;
+#declare Lego_Sand_Blue = srgb <0.454901961, 0.525490196, 0.611764706>;
+#declare Lego_Sand_Blue_Metallic = srgb <0.474509804, 0.533333333, 0.631372549>;
+#declare Lego_Sand_Green = srgb <0.470588235, 0.564705882, 0.505882353>;
+#declare Lego_Sand_Red = srgb <0.584313725, 0.474509804, 0.462745098>;
+#declare Lego_Sand_Violet = srgb <0.529411765, 0.48627451, 0.564705882>;
+#declare Lego_Sand_Violet_Metallic = srgb <0.584313725, 0.556862745, 0.639215686>;
+#declare Lego_Sand_Yellow = srgb <0.584313725, 0.541176471, 0.450980392>;
+#declare Lego_Sand_Yellow_Metallic = srgb <0.576470588, 0.529411765, 0.403921569>;
+#declare Lego_Silver = srgb <0.611764706, 0.639215686, 0.658823529>;
+#declare Lego_Silver_Flip_Flop = srgb <0.537254902, 0.529411765, 0.533333333>;
+#declare Lego_Transparent = srgb <0.925490196, 0.925490196, 0.925490196>;
+#declare Lego_Transparent_Blue = srgb <0.482352941, 0.71372549, 0.909803922>;
+#declare Lego_Transparent_Bright_Bluish_Violet = srgb <0.647058824, 0.647058824, 0.796078431>;
+#declare Lego_Transparent_Brown = srgb <0.749019608, 0.717647059, 0.694117647>;
+#declare Lego_Transparent_Fluorescent_Blue = srgb <0.811764706, 0.88627451, 0.968627451>;
+#declare Lego_Transparent_Fluorescent_Green = srgb <0.97254902, 0.945098039, 0.517647059>;
+#declare Lego_Transparent_Fluorescent_Red = srgb <0.882352941, 0.643137255, 0.760784314>;
+#declare Lego_Transparent_Fluorescent_Reddish_Orange = srgb <0.850980392, 0.521568627, 0.423529412>;
+#declare Lego_Transparent_Fluorescent_Yellow = srgb <1, 0.964705882, 0.482352941>;
+#declare Lego_Transparent_Green = srgb <0.517647059, 0.71372549, 0.552941176>;
+#declare Lego_Transparent_Lg_Blue = srgb <0.756862745, 0.874509804, 0.941176471>;
+#declare Lego_Transparent_Medium_Reddish_Violet = srgb <0.894117647, 0.678431373, 0.784313725>;
+#declare Lego_Transparent_Red = srgb <0.803921569, 0.329411765, 0.294117647>;
+#declare Lego_Transparent_Yellow = srgb <0.968627451, 0.945098039, 0.552941176>;
+#declare Lego_Turquoise = srgb <0.474509804, 0.709803922, 0.709803922>;
+#declare Lego_Warm_Yellowish_Orange = srgb <0.921568627, 0.721568627, 0.498039216>;
+#declare Lego_White = srgb <0.949019608, 0.952941176, 0.949019608>;
+#declare Lego_Yellow_Flip_Flop = srgb <0.705882353, 0.517647059, 0.333333333>;
 
 
 #version farger_Inc_Temp;
