@@ -9,7 +9,7 @@
 //    Created date   : 2014-06-22
 //    Last updated   : 2019-08-18
 //    Description    : Farger means colors in Norwegian.
-//                     This is an extended include file with currently 1293 named color definitions.
+//                     This is an extended include file with currently 1292 named color definitions.
 //                     It is mostly based on the Wikipedia list of colors that you can find at
 //                     http://en.wikipedia.org/wiki/List_of_colors
 //
