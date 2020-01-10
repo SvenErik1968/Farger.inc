@@ -1551,7 +1551,6 @@
 #declare farge_Wine = rgb <0.447058824, 0.184313725, 0.215686275>;
 #declare farge_Wine_Dregs = rgb <0.403921569, 0.192156863, 0.278431373>;
 #declare farge_Wood_Brown = rgb <0.756862745, 0.603921569, 0.419607843>;
-#declare farge_X11_Alice_Blue = rgb <0.941176471, 0.97254902, 1>;
 #declare farge_Xanadu = rgb <0.450980392, 0.525490196, 0.470588235>;
 #declare farge_Xanthic = rgb <0.933333333, 0.929411765, 0.035294118>;
 #declare farge_Xiketic = rgb <0.047058824, 0.007843137, 0.058823529>;
@@ -1597,6 +1596,7 @@
 #declare HTML_Yellow = Yellow;
 
 // X11 color names
+#declare X11_Alice_Blue = rgb <0.941176471, 0.97254902, 1>;
 #declare X11_Antique_White = rgb <0.980392157, 0.921568627, 0.843137255>;
 #declare X11_Aquamarine = rgb <0.498039216, 1, 0.831372549>;
 #declare X11_Azure = rgb <0.941176471, 1, 1>;
