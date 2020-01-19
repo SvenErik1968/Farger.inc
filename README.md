@@ -16,4 +16,4 @@ In addition, there are separate include files for colors from:
 - *Farger_PC.inc* - This is an extended include file with color definitions from a trademarked and proprietary color space system. It is based on the list of colors found on a webpage that now has disappeared; the owner of that brand/trademark is known for _vigourlysly_ defending it, so I will probably remove this file in a later version.
 
 ## Simple documentation
-In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code and a button that will copy the color name to the clipboard.
+In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code, a color sample, and a button that will copy the color name to the clipboard.
