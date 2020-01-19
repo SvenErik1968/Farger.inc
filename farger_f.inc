@@ -3,12 +3,11 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger_f.inc
-//    Version        : 4.0
+//    Version        : 3.0
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-01-19
-//    Repository     : https://github.com/SvenErik1968/Farger.inc/
+//    Last updated   : 2019-10-26
 //    Description    : Farger means colors in Norwegian.
 //                     
 //
@@ -1711,7 +1710,7 @@
     #declare farge_Fuchsia = Magenta; // HEX #FF00FF
     #declare farge_Gray_Web = Gray50; // HEX #808080
     #declare farge_Guppie_Green = SpringGreen; // HEX #00FF7F
-    #declare farge_Italian_blue = farge_Savoy_blue; // HEX #4B61D1
+    #declare farge_Italian_blue = farge_Savoy_Blue; // HEX #4B61D1
     #declare farge_Medium_Purple = MediumOrchid; // HEX #9370DB
     #declare farge_Old_Gold = OldGold; // HEX #CFB53B
     #declare farge_Olive_Drab_No3 = MediumForestGreen; // HEX #6B8E23

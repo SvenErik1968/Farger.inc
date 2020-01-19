@@ -7,8 +7,7 @@
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-01-19
-//    Repository     : https://github.com/SvenErik1968/Farger.inc/
+//    Last updated   : 2020-01-18
 //    Description    : Farger means colors in Norwegian.
 //                     
 //
@@ -358,7 +357,7 @@
 #declare Crayola_Gold_Ochre_1903_1958 = Crayola_Maize; // HEX #F2C649
 #declare Crayola_Golden_Ochre = Crayola_Maize; // HEX #F2C649
 #declare Crayola_Grandmas_Perfume = Crayola_Orange; // HEX #FF8833
-#declare Crayola_Grape = Crayola_Violet_II; // HEX #8359A3
+#declare Crayola_Grape = Crayola_Violet; // HEX #8359A3
 #declare Crayola_Grey = Crayola_Gray; // HEX #8B8680
 #declare Crayola_Heat_Wave = Crayola_Wild_Watermelon; // HEX #FD5B78
 #declare Crayola_Jelly_Bean = Crayola_Orange; // HEX #FF8833

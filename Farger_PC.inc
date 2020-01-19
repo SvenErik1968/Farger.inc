@@ -4,9 +4,8 @@
 //    Version        : 4.0
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
-//    Created date   : 2014-06-22
-//    Last updated   : 2020-01-19
-//    Repository     : https://github.com/SvenErik1968/Farger.inc/
+//    Created date   : 2019-08-21
+//    Last updated   : 2020-01-18
 //    Description    : This is based on a list of named colors in a proprietary color space found on the Internet that now has been taken down...
 //                     https://en.wikipedia.org/wiki/Pantone#Intellectual_property
 //
@@ -1366,27 +1365,27 @@
 // https://en.wikipedia.org/wiki/Pantone#Color_of_the_Year
 //
 #declare farge_PC_CotY_2000_Cerulean = rgb <0.607843137254902, 0.717647058823529, 0.831372549019608>; // HEX #9BB7D4
-#declare farge_PC_CotY_2001_Fuchsia Rose = rgb <0.780392156862745, 0.262745098039216, 0.458823529411765>; // HEX #C74375
-#declare farge_PC_CotY_2002_True Red = rgb <0.749019607843137, 0.0980392156862745, 0.196078431372549>; // HEX #BF1932
-#declare farge_PC_CotY_2003_Aqua Sky = rgb <0.482352941176471, 0.768627450980392, 0.768627450980392>; // HEX #7BC4C4
+#declare farge_PC_CotY_2001_Fuchsia_Rose = rgb <0.780392156862745, 0.262745098039216, 0.458823529411765>; // HEX #C74375
+#declare farge_PC_CotY_2002_True_Red = rgb <0.749019607843137, 0.0980392156862745, 0.196078431372549>; // HEX #BF1932
+#declare farge_PC_CotY_2003_Aqua_Sky = rgb <0.482352941176471, 0.768627450980392, 0.768627450980392>; // HEX #7BC4C4
 #declare farge_PC_CotY_2004_Tigerlily = rgb <0.886274509803922, 0.345098039215686, 0.243137254901961>; // HEX #E2583E
-#declare farge_PC_CotY_2005_Blue Turquoise = rgb <0.325490196078431, 0.690196078431373, 0.682352941176471>; // HEX #53B0AE
-#declare farge_PC_CotY_2006_Sand Dollar = rgb <0.870588235294118, 0.803921568627451, 0.745098039215686>; // HEX #DECDBE
-#declare farge_PC_CotY_2007_Chili Pepper = rgb <0.607843137254902, 0.105882352941176, 0.188235294117647>; // HEX #9B1B30
-#declare farge_PC_CotY_2008_Blue Iris = rgb <0.352941176470588, 0.356862745098039, 0.623529411764706>; // HEX #5A5B9F
+#declare farge_PC_CotY_2005_Blue_Turquoise = rgb <0.325490196078431, 0.690196078431373, 0.682352941176471>; // HEX #53B0AE
+#declare farge_PC_CotY_2006_Sand_Dollar = rgb <0.870588235294118, 0.803921568627451, 0.745098039215686>; // HEX #DECDBE
+#declare farge_PC_CotY_2007_Chili_Pepper = rgb <0.607843137254902, 0.105882352941176, 0.188235294117647>; // HEX #9B1B30
+#declare farge_PC_CotY_2008_Blue_Iris = rgb <0.352941176470588, 0.356862745098039, 0.623529411764706>; // HEX #5A5B9F
 #declare farge_PC_CotY_2009_Mimosa = rgb <0.941176470588235, 0.752941176470588, 0.352941176470588>; // HEX #F0C05A
 #declare farge_PC_CotY_2010_Turquoise = rgb <0.270588235294118, 0.709803921568627, 0.666666666666667>; // HEX #45B5AA
 #declare farge_PC_CotY_2011_Honeysuckle = rgb <0.850980392156863, 0.309803921568627, 0.43921568627451>; // HEX #D94F70
-#declare farge_PC_CotY_2012_Tangerine Tango = rgb <0.866666666666667, 0.254901960784314, 0.141176470588235>; // HEX #DD4124
+#declare farge_PC_CotY_2012_Tangerine_Tango = rgb <0.866666666666667, 0.254901960784314, 0.141176470588235>; // HEX #DD4124
 #declare farge_PC_CotY_2013_Emerald = rgb <0, 0.580392156862745, 0.450980392156863>; // HEX #009473
-#declare farge_PC_CotY_2014_Radiant Orchid = rgb <0.694117647058824, 0.388235294117647, 0.63921568627451>; // HEX #B163A3
+#declare farge_PC_CotY_2014_Radiant_Orchid = rgb <0.694117647058824, 0.388235294117647, 0.63921568627451>; // HEX #B163A3
 #declare farge_PC_CotY_2015_Marsala = rgb <0.584313725490196, 0.32156862745098, 0.317647058823529>; // HEX #955251
-#declare farge_PC_CotY_2016_Rose Quartz = rgb <0.968627450980392, 0.792156862745098, 0.788235294117647>; // HEX #F7CAC9
+#declare farge_PC_CotY_2016_Rose_Quartz = rgb <0.968627450980392, 0.792156862745098, 0.788235294117647>; // HEX #F7CAC9
 #declare farge_PC_CotY_2016_Serenity = rgb <0.572549019607843, 0.658823529411765, 0.819607843137255>; // HEX #92A8D1
 #declare farge_PC_CotY_2017_Greenery = rgb <0.533333333333333, 0.690196078431373, 0.294117647058824>; // HEX #88B04B
-#declare farge_PC_CotY_2018_Ultra Violet = rgb <0.372549019607843, 0.294117647058824, 0.545098039215686>; // HEX #5F4B8B
-#declare farge_PC_CotY_2019_Living Coral = rgb <1, 0.435294117647059, 0.380392156862745>; // HEX #FF6F61
-#declare farge_PC_CotY_2020_Classic Blue = rgb <0.0588235294117647, 0.298039215686275, 0.505882352941176>; // HEX #0F4C81
+#declare farge_PC_CotY_2018_Ultra_Violet = rgb <0.372549019607843, 0.294117647058824, 0.545098039215686>; // HEX #5F4B8B
+#declare farge_PC_CotY_2019_Living_Coral = rgb <1, 0.435294117647059, 0.380392156862745>; // HEX #FF6F61
+#declare farge_PC_CotY_2020_Classic_Blue = rgb <0.0588235294117647, 0.298039215686275, 0.505882352941176>; // HEX #0F4C81
 
 
     #version Farger_PC_Inc_Temp;
