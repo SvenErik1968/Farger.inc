@@ -3,7 +3,7 @@
 
 This is an extended include file with, at the moment, 6568 named color definitions.
 
-It is mostly based on the **Wikipedia** list of colors that you can find at: [*Lists of colors*](http://en.wikipedia.org/wiki/List_of_colors) and [*Encycolorpedia*](https://encycolorpedia.com/named).
+It is mostly based on the **Wikipedia** list of colors that you can find at: [*Lists of colors*](http://en.wikipedia.org/wiki/List_of_colors) in addition to [*Encycolorpedia*](https://encycolorpedia.com/named).
 
 In addition, there are separate include files for colors from:
 
