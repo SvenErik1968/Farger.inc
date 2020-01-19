@@ -4,8 +4,9 @@
 //    Version        : 4.0
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
-//    Created date   : 2019-08-21
-//    Last updated   : 2020-01-18
+//    Created date   : 2014-06-22
+//    Last updated   : 2020-01-19
+//    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : This is based on a list of named colors in a proprietary color space found on the Internet that now has been taken down...
 //                     https://en.wikipedia.org/wiki/Pantone#Intellectual_property
 //

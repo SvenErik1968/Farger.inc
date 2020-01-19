@@ -7,7 +7,8 @@
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-01-18
+//    Last updated   : 2020-01-19
+//    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //
 //                     This is an extended include file with, at the moment, 6568 named color definitions.

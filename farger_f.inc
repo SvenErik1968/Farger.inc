@@ -3,11 +3,12 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger_f.inc
-//    Version        : 3.0
+//    Version        : 4.0
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2019-10-26
+//    Last updated   : 2020-01-19
+//    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //                     
 //
