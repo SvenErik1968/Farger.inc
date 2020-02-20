@@ -1,3 +1,10 @@
+[![POV-Ray version](https://img.shields.io/badge/POV--Ray-3.8-blue?style=plastic)](https://www.povray.org/)
+
+[![Latest release](https://badgen.net/github/release/SvenErik1968/Farger.inc)](https://github.com/SvenErik1968/Farger.inc/releases)
+[![Open issues](https://badgen.net/github/open-issues//SvenErik1968/Farger.inc)](https://github.com/SvenErik1968/Farger.inc/issues)
+![Last commit](https://badgen.net/github/last-commit/SvenErik1968/Farger.inc)
+[![License](https://badgen.net/github/license/SvenErik1968/Farger.inc)](https://github.com/SvenErik1968/Farger.inc/blob/master/LICENSE)
+
 # Farger.inc
 *Farger* is the plural form of the Norwegian word *farge* that means color.
 
