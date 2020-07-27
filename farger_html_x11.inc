@@ -3,11 +3,11 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger_html_x11.inc
-//    Version        : 4.0
+//    Version        : 4.1
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-01-19
+//    Last updated   : 2020-07-27
 //    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //                     This is an extended include file with, at the moment, 1701 named color definitions.
@@ -20,7 +20,7 @@
 //
 //                     LEGO™ colors
 //                     http://www.peeron.com/cgi-bin/invcgis/colorguide.cgi
-//                     
+//
 //
 
 #ifndef(farger_html_x11_Inc_Temp)

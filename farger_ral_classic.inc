@@ -3,13 +3,13 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger_ral_classic.inc
-//    Version        : 3.0
+//    Version        : 4.1
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2019-10-26
+//    Last updated   : 2020-07-27
 //    Description    : Farger means colors in Norwegian.
-//                     
+//
 //
 
 #ifndef(farger_ral_classic_Inc_Temp)
@@ -27,7 +27,7 @@
         #debug "including farger_ral_classic.inc\n"
     #end
 
-    // RAL Classic colors, these are defined in the sRGB colour space 
+    // RAL Classic colors, these are defined in the sRGB colour space
     #declare RAL_1000_Green_beige = srgb <0.803921568627451, 0.729411764705882, 0.533333333333333>; // HEX #CDBA88
     #declare RAL_1001_Beige = srgb <0.815686274509804, 0.690196078431373, 0.517647058823529>; // HEX #D0B084
     #declare RAL_1002_Sand_yellow = srgb <0.823529411764706, 0.666666666666667, 0.427450980392157>; // HEX #D2AA6D
