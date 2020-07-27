@@ -3,7 +3,7 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger_ColorMine.inc
-//    Version        : 4.0
+//    Version        : 4.1
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
