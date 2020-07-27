@@ -11,7 +11,7 @@
 //    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //
-//                     This is an extended include file with, at the moment, 6568 named color definitions.
+//                     This is an extended include file with, at the moment, 6706 named color definitions.
 //
 //                     It is mostly based on the Wikipedia list of colors that you can find at:
 //                     http://en.wikipedia.org/wiki/List_of_colors
@@ -25,16 +25,23 @@
 //
 //                     Encycolorpedia
 //                     https://encycolorpedia.com/named
-//                     
+//
 //                     Xona.com color list
 //                     http://xona.com/misc/colorlist/
-//                     
-//                     RAL Classic                     
+//
+//                     RAL Classic
 //                     https://en.wikipedia.org/wiki/List_of_RAL_colors#Overview
-//                     
+//
 //                     Aerospace Material Specification Standard 595 (AMS STANDARD 595 COLOR)
 //                     http://www.federalstandardcolor.com/
-//                     
+//
+//                     ColorMine named color list
+//                     http://colormine.org/colors-by-name
+//
+//                     Check out the POV-Ray macro library at https://github.com/mjhorvath/ColorMine
+//                     with many macroes to work with and convert colors
+//                     made by Michael Horvath (mjhorvath)
+//
 
 #ifndef(farger_Inc_Temp)
     #declare farger_Inc_Temp = version;
@@ -60,6 +67,7 @@
     #include "farger_ral_classic.inc" // Include this if you want the RAL Classic colors
     #include "farger_ams595.inc" // Include this if you want the AMS Standard 595 colors
     #include "Farger_PC.inc" // Include this if you want the Pant... colors
+    #include "farger_ColorMine.inc" // Include this if you want the ColorMine colors
 
     #version farger_Inc_Temp;
 #end
