@@ -7,7 +7,7 @@
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-01-19
+//    Last updated   : 2020-07-27
 //    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //
@@ -40,7 +40,7 @@
 //
 //                     Check out the POV-Ray macro library at https://github.com/mjhorvath/ColorMine
 //                     with many macroes to work with and convert colors
-//                     made by Michael Horvath (mjhorvath)
+//                     made by Michael Horvath (mjhorvath) based on code from ColorMine.org
 //
 
 #ifndef(farger_Inc_Temp)
