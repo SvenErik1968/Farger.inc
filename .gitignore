@@ -5,3 +5,4 @@
 *.xltx
 *.xlsm
 *.xltm
+/.vscode/*
