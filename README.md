@@ -22,6 +22,7 @@ In addition, there are separate include files for colors from:
 - [*Aerospace Material Specification Standard 595 (AMS STANDARD 595 COLOR)*](http://www.federalstandardcolor.com/)_(This is an USA government color standard)_.
 - *Farger_PC.inc* - This is an extended include file with color definitions from a trademarked and proprietary color space system. It is based on the list of colors found on a webpage that now has disappeared; the owner of that brand/trademark is known for _vigourlysly_ defending it, so I will probably remove this file in a later version.
 - [*ColorMine.org - Colors by Name*](http://colormine.org/colors-by-name)
+    - [*ColorMine* POV-Ray macro library](https://github.com/mjhorvath/ColorMine): Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work with and convert colors based on code from ColorMine.org
 
 ## Simple documentation
 In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code, a color sample, and a button that will copy the color name to the clipboard.
