@@ -22,7 +22,23 @@ In addition, there are separate include files for colors from:
 - [*Aerospace Material Specification Standard 595 (AMS STANDARD 595 COLOR)*](http://www.federalstandardcolor.com/)_(This is an USA government color standard)_.
 - *Farger_PC.inc* - This is an extended include file with color definitions from a trademarked and proprietary color space system. It is based on the list of colors found on a webpage that now has disappeared; the owner of that brand/trademark is known for _vigourlysly_ defending it, so I will probably remove this file in a later version.
 - [*ColorMine.org - Colors by Name*](http://colormine.org/colors-by-name)
-    - [*ColorMine* POV-Ray macro library](https://github.com/mjhorvath/ColorMine): Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work with and convert colors based on code from ColorMine.org
+
+## _Tips:_ [*ColorMine* POV-Ray macro library](https://github.com/mjhorvath/ColorMine) ##
+Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work with and convert colors based on code from ColorMine.org that complements (and partially duplicate) the macros from [`Colors.inc`](https://github.com/POV-Ray/povray/blob/master/distribution/include/colors.inc).
+- Included conversion macros:
+    - `CLCH2LAB` - `CIE LCH` to `CIE L*a*b*`
+    - `CLAB2XYZ` - `CIE L*a*b*` to `CIE 1931 XYZ`
+    - `CXYZ2RGB` - `CIE 1931 XYZ` to `RGB` _(Same macro-name as in Colors.inc)_
+    - `CLUV2XYZ` - `CIELUV` to `CIE 1931 XYZ`
+    - `CHCL2LUV` - `HSL` to `CIE LUV`
+    - `CRGB2HEX` - `RGB` vector _(0 to 1)_ to HEX
+    - `CDEC2HEX` - Decimal _(0 to 1)_ to HEX
+    - `CXYZ2XYY` - `CIE 1931 XYZ` to `CIE xyY`
+    - `CXYZ2LAB` - `CIE 1931 XYZ` to `CIE L*a*b*`
+    - `CXYY2XYZ` - `CIE xyY` to `CIE 1931 XYZ`
+    - `CLAB2LCH` - `CIE L*a*b*` to `CIE LCH`
+    - `CLUV2HCL` - `CIELUV` to `HCL`
+
 
 ## Simple documentation
 In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code, a color sample, and a button that will copy the color name to the clipboard.
