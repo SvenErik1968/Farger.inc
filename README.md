@@ -45,3 +45,7 @@ Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work wi
 
 ## Simple documentation
 In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code, a color sample, and a button that will copy the color name to the clipboard.
+
+### TODO
+ [ ] Create a documentation HTML-file for the new farger_color_names.inc
+ 
