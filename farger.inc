@@ -3,11 +3,11 @@
 //    Persistence of Vision Ray Tracer Include File
 //
 //    File           : farger.inc
-//    Version        : 4.1
+//    Version        : 5.0
 //    Created by     : Sven-Erik Andersen
 //    Contact        : sven.erik.andersen@gmail.com
 //    Created date   : 2014-06-22
-//    Last updated   : 2020-07-27
+//    Last updated   : 2021-01-02
 //    Repository     : https://github.com/SvenErik1968/Farger.inc/
 //    Description    : Farger means colors in Norwegian.
 //
@@ -42,32 +42,42 @@
 //                     with many macroes to work with and convert colors
 //                     made by Michael Horvath (mjhorvath) based on code from ColorMine.org
 //
+//                     It now also includes a massive include file based on the large list of named colors
+//                     located at https://github.com/meodai/color-names
+//                     This file that currently contains 27351 named colors are not included by default;
+//                     if you want to use it, set Include_Meodai below to true, the other files will then
+//                     not be included. The defined colors in this file have not been compared with the ones
+//                     in colors.inc.
 
 #ifndef(farger_Inc_Temp)
     #declare farger_Inc_Temp = version;
     #version 3.7;
 
-    // Where the color definition is the same as in the POV-Ray color.inc include file,
-    // the color name will point to the POV-Ray color definition,
-    // so we need to make sure that file is included
-    #ifndef(Colors_Inc_Temp)
-        #include "colors.inc"
-    #end
+    #declare Include_Meodai = false;
 
     #ifdef(View_POV_Include_Stack)
         #debug "including farger.inc\n"
     #end
 
-    // Comment out the include files you don't need
-    #include "farger_f.inc" // Include this if you want the named colors
-    #include "farger_crayola.inc" // Include this if you want the Crayola colors
-    #include "farger_html_x11.inc" // Include this if you want the HTML and X11 named colors
-    #include "farger_lego.inc" // Include this if you want the Lego colors
-    #include "farger_Xona.inc" // Include this if you want the Xona.com colors
-    #include "farger_ral_classic.inc" // Include this if you want the RAL Classic colors
-    #include "farger_ams595.inc" // Include this if you want the AMS Standard 595 colors
-    #include "Farger_PC.inc" // Include this if you want the Pant... colors
-    #include "farger_ColorMine.inc" // Include this if you want the ColorMine colors
-
+    #if (Include_Meodai)
+        #include "farger_color_names.inc"
+    #else
+        // Where the color definition is the same as in the POV-Ray color.inc include file,
+        // the color name will point to the POV-Ray color definition,
+        // so we need to make sure that file is included
+        #ifndef(Colors_Inc_Temp)
+            #include "colors.inc"
+        #end
+        // Comment out the include files you don't need
+        #include "farger_f.inc" // Include this if you want the named colors
+        #include "farger_crayola.inc" // Include this if you want the Crayola colors
+        #include "farger_html_x11.inc" // Include this if you want the HTML and X11 named colors
+        #include "farger_lego.inc" // Include this if you want the Lego colors
+        #include "farger_Xona.inc" // Include this if you want the Xona.com colors
+        #include "farger_ral_classic.inc" // Include this if you want the RAL Classic colors
+        #include "farger_ams595.inc" // Include this if you want the AMS Standard 595 colors
+        #include "Farger_PC.inc" // Include this if you want the Pant... colors
+        #include "farger_ColorMine.inc" // Include this if you want the ColorMine colors
+    #end
     #version farger_Inc_Temp;
 #end
