@@ -23,6 +23,11 @@ In addition, there are separate include files for colors from:
 - *Farger_PC.inc* - This is an extended include file with color definitions from a trademarked and proprietary color space system. It is based on the list of colors found on a webpage that now has disappeared; the owner of that brand/trademark is known for _vigourlysly_ defending it, so I will probably remove this file in a later version.
 - [*ColorMine.org - Colors by Name*](http://colormine.org/colors-by-name)
 
+## New in v5.0
+A **_large_** include file with currently **27351** named unique colors have been added based on the [meodai/color-names](https://github.com/meodai/color-names) collection. It is not included by default, but you can change a value in [farger.inc](./farger.inc) to include it, the other files will then _not_ be loaded since most of the sources for the other files are also used in the meodai/color-names collection.
+
+In order to generate _"safe"_ color identifiers, some automatic conversion of the names is done to remove various non-ASCII, UNICODE and punctuation symbols.
+
 ## _Tips:_ [*ColorMine* POV-Ray macro library](https://github.com/mjhorvath/ColorMine) ##
 Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work with and convert colors based on code from ColorMine.org that complements (and partially duplicate) the macros from [`Colors.inc`](https://github.com/POV-Ray/povray/blob/master/distribution/include/colors.inc).
 - Included conversion macros:
@@ -42,3 +47,8 @@ Michael Horvath's (mjhorvath) POV-Ray macro library with many macroes to work wi
 
 ## Simple documentation
 In the [_Documentation_](./Documentation/) folder, you will find a set of HTML-files (one for each of the include-files) that contain a simple table showing the color name, the RGB hex color code, a color sample, and a button that will copy the color name to the clipboard.
+
+### TODO
+- [X] Create an include file based on the meodai/color-names collection ([Issue 4](https://github.com/SvenErik1968/Farger.inc/issues/4#issue-716782026))
+- [X] Create a documentation HTML-file for the new farger_color_names.inc
+ 
